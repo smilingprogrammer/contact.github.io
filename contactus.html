@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Contact Us </title>
+
+  <!-- FONT AWESOME CDN LINK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- GOOGLE FONT CDN -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+
+  <!-- Send Message -->
+  <section id="contact-us">
+    <div class="info-left">
+      <h1 class=header-title>Get in Touch With Us, And Send Us A Message today!</h1>
+      <form>
+        <div class="form-group">
+          <input type="text" class="form-control" id="" placeholder="Enter Your Full Name">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="" placeholder="Enter Your Email Address">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="" placeholder="Message">
+        </div>
+        <input type="submit" value="SEND MESSAGE" class="btn btn-primary">
+      </form>
+    </div>
+
+    <!-- Address -->
+    <div class="info-right">
+      <div class="img">
+      <img src="img/ig.png" width="30px" height="30px">
+      </div>
+    </div>
+  </section>
+
+  <!-- map section -->
+  <section class="map-container">
+    <div id="map"></div>
+  </section>
+
+  <!-- map script -->
+  <script>
+    var map;
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: { lat: -34.397, lng: 150.644 }, zoom: 8
+      });
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDH3k7sqj7OqdV_zDynOShg5TQu55_rI-s&callback=initMap"
+    async defer></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/hamburger.js"></script>
+</body>
+
+</html>

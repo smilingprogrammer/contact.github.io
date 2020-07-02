@@ -510,7 +510,6 @@ footer {
 }
 
 footer input.form-control {
-    margin-top: 30px;
     border: 1px solid #fff;
     background-color: rgba(0, 0, 0, 0) !important;
     color: #fff !important;
@@ -519,7 +518,7 @@ footer input.form-control {
 footer .footer-btn {
     background-color: #EBC154;
     color: #fff;
-    width: 180px;
+    width: 100%;
     font-size: 22px;
     font-weight: bold;
 }

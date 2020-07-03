@@ -160,3 +160,9 @@ textarea::placeholder {
       display: inline-block;
    }
 }
+@media (max-width: 610px) {
+   .img {
+      width: 100%;
+      margin-right: 0px;
+    }
+ }

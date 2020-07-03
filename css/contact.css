@@ -142,6 +142,7 @@ textarea::placeholder {
    #contact-us .info-right {
       width: 70%;
       margin-top: 50px;
+      margin-right: 0;
    }
 
    #contact-us .info-left {
